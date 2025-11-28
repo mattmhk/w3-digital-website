@@ -323,57 +323,6 @@ textarea:focus {
   filter: grayscale(1) brightness(1.15) contrast(1.05);
 }
 
-.testimonials .carousel {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  background: var(--gray-700);
-  border-radius: 1.5rem;
-  padding: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.carousel .slides {
-  flex: 1;
-  position: relative;
-  min-height: 140px;
-}
-
-.carousel .slide {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  transition: opacity 0.4s ease;
-}
-
-.carousel .slide.active {
-  opacity: 1;
-  position: relative;
-}
-
-.carousel .slide p {
-  font-size: 1.1rem;
-  margin-bottom: 0.75rem;
-}
-
-.carousel-btn {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: var(--white);
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.carousel-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
 .footer {
   padding: 2rem;
   text-align: center;
@@ -402,16 +351,6 @@ textarea:focus {
   .hero-cta {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .testimonials .carousel {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .carousel-btn {
-    width: 40px;
-    height: 40px;
   }
 }
 
